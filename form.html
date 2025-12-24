@@ -4,43 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2>Contact Form</h2>
+    <header class="header">
+        <h1>My Simple WebPage</h1>
+    </header>
+    <main class="main-body">
+    <h4 class="header-title">Contact Form</h2>
     <form action="">
-        <div>
+        <div class="form-label"> 
             <label for="name">FullName:
             <input type="text" name="name" id="name">
             </label>
         </div>
-        <div>
+        <div class="form-label">
             <label for="email">Email:
                 <input type="email" name="email">
             </label>
         </div>
-        <div>
+        <div class="form-label">
             <label for="password">password:
                 <input type="password" name="password">
             </label>
         </div>
-        <div>
+        <div class="form-label">
             <label for="Age">Age:
                 <input type="age" name="age">
             </label>
         </div>
-        <div>
+        <div class="form-label">
             <label for="gender">Gender:</label>
             <select name="gender" id="gender">
                 <option value="female">Female</option>
                 <option value="male">male</option>
             </select>
         </div>
-        <div>
+        <div class="form-label">
             <label for="short-bio">Short Bio</label>
             <textarea name="short-bio" id="short-bio"></textarea>
         </div>
-
-        <button type="submit">Submit</button>
-    </form>
+        <button type="submit" id="submit">Submit</button>
+    </main>
 </body>
 </html>
